@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	padding: 5px;
+	background-color: #b61042;
+}
+
+.logo{
+	width: 10%;
+	display: flex;
+	margin: 0 auto;
+}
+
+.logo:hover{
+	transform: rotate(360deg);;
+	transition: all 1.3s;
+}
+
+h1{
+	text-align: center;	
+	font-family : fantasy, algerian;	
+}
+
+li{
+	display: inline;
+	padding: 20px;
+}
+
+main{
+	padding: 20px;
+	overflow: auto;
+}
+
+nav{
+	padding: 10px;
+	color: black;
+}
+
+nav a{
+	color: black;
+	padding: 10px;
+}
+
+nav a:hover{
+	color: blue;
+	background-color: black;
+	padding: 10px;
+}
+
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin: 5px 5px;
+}
+
+#content{
+    float: left;
+    width: 75%;
+}
+
+aside{
+	float: right;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 25%;
+	order: -1;
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 1000px) {
+	#content,aside{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	
+}
+
+
+.bio{
+	text-align: center;
+}
+
+.foto{ 
+	width: 80%;
+	display: flex;
+	margin: 0 auto;
+}
+
+.foto:hover{
+	transform: scale(1.1);
+	transition: all .3s ease-in;
+}
+
+.contact{
+   width: 5%;
+}
+
+.contact:hover{
+	transform: scale(1.5);;
+	transition: all .3s ease-in;
+}
+
+.fab fa-linkedin-in{
+	width: 5%;
+}
